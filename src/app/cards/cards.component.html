@@ -1,0 +1,36 @@
+<div class="cards">
+    <div class="d-flex gap-2 justify-content-center"> 
+    <div class="card" style="width: 18rem;" *ngFor="let item of val">
+        <img src="{{item.img}} " class="card-img-top" alt="earbuds">
+       <div class="card-body">
+            <h5 class="card-title"></h5>
+            <p class="card-text"> 
+              {{item.disc}}
+            </p>
+            <br>
+          <p style="color: red;font-size: x-large;"> {{item.proPrice}} </p>
+          <div class="ptag">
+          <p style="color: grey;font-size:medium;text-decoration:line-through;">{{item.saveRupes}}  </p>
+           <span style="color:black"> {{item.discount}} %</span>
+          </div>
+          
+        </div>
+    </div>
+    <!-- <div class="shy">
+      <div class="try">
+        <div class="d-flex gap-2 justify-content-center">
+       
+      <div class="card" style="width: 18rem;" *ngFor="let item of val">
+        <img src="{{item.img}}" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">{{item.cardtitle}}</h5>
+          <br>
+          <p style="color: red;font-size: x-large;">{{item.proprcie}}</p>
+        </div>
+   -->
+  
+  
+  
+   
+  </div> 
+  </div>

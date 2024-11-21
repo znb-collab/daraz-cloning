@@ -1,0 +1,97 @@
+.texture{
+    padding-left: 100px;
+    padding-right: 180px;
+    
+  }
+  .text-turncate{
+    font-size: 20px;
+    color: orangered;
+    text-align: end;
+    margin-left: 200px;
+    text-decoration: none;
+   
+
+  }
+  .text-class {
+    color: orangered;
+    font-size: 20px;
+    border: 1px ridge orangered;
+    text-decoration: none;
+     /* padding-block: 5px; */
+    padding-inline: 15px; 
+     text-wrap: nowrap; 
+    padding-bottom: 20px;
+    padding-block-end: 20px;
+  }
+  .flex {
+    display: flex;
+    gap: 1100px;
+  }
+  .cards{
+    display: flex;
+    padding-left: 200px;
+    padding-right: 100px;
+     }
+     .car{
+      padding-left: 250px;
+      padding-right: 250px;
+     }
+     .cars{
+      padding-left: 250px;
+      padding-right: 250px;
+     }
+     .category{
+      padding-top: 250px;
+     }
+     .shy{
+      padding-right: 250px;
+      padding-left: 250px;
+     }
+     .ptag{
+      display: flex;
+      gap: 5px;
+     }
+     .footer{
+      padding-left: 250px;
+     }
+     .footer3{
+      display: flex;
+      gap: 200px;
+
+     }
+     .shake{
+      display: flex;
+      gap: 35px;
+     }
+     .free{
+      gap:0px;
+
+     }
+     .say{
+      gap: 45px;
+     }
+     .color{
+      background:whitesmoke;
+     }
+     /* .pp{
+      padding-left: 300px; */
+     /* } */
+     .end{
+      padding-left: 300px;
+      display: flex;
+      gap: 200px;
+      padding-top: 50px;
+     }
+     .end2{
+      padding-left: 300px;
+      display: flex;
+      gap: 150px;
+      
+     }
+     .pt{
+      padding-left: 300px;
+      padding-bottom: 50px;
+     }
+     .hey{
+      background-color: white;
+     }
